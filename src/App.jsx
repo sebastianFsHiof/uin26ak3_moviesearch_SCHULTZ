@@ -7,14 +7,13 @@ import Home from './pages/Home'
 import Movie from './pages/Movie'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <Routes>
       <Route index element={<Home />} />
-      <Route path=":movie" element={<Movie />} />
-
+      <Route path=":movie" element={<Movie />} /> 
     </Routes>
+
   )
 }
 
